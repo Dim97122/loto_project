@@ -47,7 +47,7 @@ function checkLoto() {
   }
   // If email syntax is compliant
   if (resultat == false ) {
-    notice_syntax_email = "Pour être valide, l'email doit contenir: un '@', un '.' et SMOURF ";
+    notice_syntax_email = "Pour être valide, l'email doit contenir: un '@', un '.'";
     document.getElementById("notice_syntax_email").innerHTML = notice_syntax_email;
   }
 
